@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="StudentHub - static HTML5 page: Admin">
+<title>Admin | StudentHub</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<script>try{var t=localStorage.getItem('sh_theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container nav-bar">
+    <a class="brand" href="index.html">Student<span>Hub</span></a>
+    <div class="nav-tools">
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle light/dark theme">🌙</button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">☰</button>
+    </div>
+    <nav aria-label="Main navigation" style="flex:1 1 auto"><ul class="nav-menu" id="navMenu" style="justify-content:flex-end"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="events.html">Events</a></li><li><a href="directory.html">Directory</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li><li><a href="feedback.html">Feedback</a></li><li><a href="dashboard.html">Dashboard</a></li><li><a href="profile.html">Profile</a></li><li><a href="admin.html" aria-current="page">Admin</a></li><li><a href="login.html">Login</a></li><li><a href="register.html">Register</a></li></ul></nav>
+  </div>
+</header>
+<div class="banner" id="banner" role="status"><div class="container"><span>🎉 Annual Tech Fest registrations are open — see the Events page!</span><button id="bannerClose" aria-label="Dismiss notification">&times;</button></div></div>
+<div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> › <span>Admin</span></nav></div>
+<main id="main" class="container">
+<div class="two-col">
+  <aside><ul class="side-menu" aria-label="Admin menu"><li><a class="active" href="admin.html">📊 Overview</a></li><li><a href="events.html">📅 Events</a></li><li><a href="contact.html">✉ Messages</a></li></ul></aside>
+  <section><h1>Admin dashboard</h1>
+    <div class="grid cols-4"><div class="card stat"><div class="num">26</div>Users</div><div class="card stat"><div class="num">25</div>Active students</div><div class="card stat"><div class="num">18</div>Events</div><div class="card stat"><div class="num">40</div>Registrations</div></div>
+    <div class="card" style="margin-top:1.2rem"><h2>Registrations by event</h2><div class="bar-chart" style="margin-bottom:1.6rem" role="img" aria-label="Bar chart of registrations by event">
+      <div class="bar" style="height:90%"><span>9</span><small>Hack</small></div><div class="bar" style="height:70%"><span>7</span><small>WebDev</small></div><div class="bar" style="height:60%"><span>6</span><small>Cultural</small></div><div class="bar" style="height:40%"><span>4</span><small>Robotics</small></div><div class="bar" style="height:30%"><span>3</span><small>Seminar</small></div></div></div>
+    <h2 style="margin-top:1.5rem">Latest registrations</h2>
+    <div class="table-wrap"><table><thead><tr><th>Student</th><th>Event</th><th>When</th></tr></thead><tbody><tr><td>Aarav Patel</td><td>HackCharusat</td><td>2026-10-26 14:20</td></tr><tr><td>Diya Shah</td><td>Web Dev Bootcamp</td><td>2026-10-26 11:05</td></tr><tr><td>Riya Desai</td><td>Robotics Expo</td><td>2026-10-25 17:40</td></tr></tbody></table></div>
+  </section></div>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><strong>StudentHub</strong><p>Student &amp; event management portal — CHARUSAT, ITUE203 Web Development Frameworks.</p></div>
+    <div><strong>Links</strong><br><a href="about.html">About</a><br><a href="faq.html">FAQ</a><br><a href="contact.html">Contact</a></div>
+    <div><strong>Account</strong><br><a href="login.html">Login</a><br><a href="register.html">Register</a></div>
+  </div>
+  <div class="container"><small>&copy; 2026 StudentHub. All rights reserved.</small></div>
+</footer>
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>

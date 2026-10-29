@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "title": "HackCharusat",
+    "category": "Cultural",
+    "date": "2026-11-03",
+    "venue": "Seminar Hall A",
+    "status": "open",
+    "description": "HackCharusat organised for StudentHub members."
+  },
+  {
+    "id": 2,
+    "title": "Web Dev Bootcamp",
+    "category": "Sports",
+    "date": "2026-11-05",
+    "venue": "Computer Lab 3",
+    "status": "open",
+    "description": "Web Dev Bootcamp organised for StudentHub members."
+  },
+  {
+    "id": 3,
+    "title": "Annual Cultural Fest",
+    "category": "Workshop",
+    "date": "2026-11-07",
+    "venue": "Sports Ground",
+    "status": "open",
+    "description": "Annual Cultural Fest organised for StudentHub members."
+  },
+  {
+    "id": 4,
+    "title": "Inter-College Cricket",
+    "category": "Seminar",
+    "date": "2026-11-09",
+    "venue": "Library Hall",
+    "status": "closed",
+    "description": "Inter-College Cricket organised for StudentHub members."
+  },
+  {
+    "id": 5,
+    "title": "AI & ML Seminar",
+    "category": "Technical",
+    "date": "2026-11-11",
+    "venue": "Main Auditorium",
+    "status": "open",
+    "description": "AI & ML Seminar organised for StudentHub members."
+  },
+  {
+    "id": 6,
+    "title": "Resume Building Workshop",
+    "category": "Cultural",
+    "date": "2026-11-13",
+    "venue": "Seminar Hall A",
+    "status": "open",
+    "description": "Resume Building Workshop organised for StudentHub members."
+  },
+  {
+    "id": 7,
+    "title": "Open Source Day",
+    "category": "Sports",
+    "date": "2026-11-15",
+    "venue": "Computer Lab 3",
+    "status": "open",
+    "description": "Open Source Day organised for StudentHub members."
+  },
+  {
+    "id": 8,
+    "title": "Robotics Expo",
+    "category": "Workshop",
+    "date": "2026-11-17",
+    "venue": "Sports Ground",
+    "status": "closed",
+    "description": "Robotics Expo organised for StudentHub members."
+  },
+  {
+    "id": 9,
+    "title": "Photography Walk",
+    "category": "Seminar",
+    "date": "2026-11-19",
+    "venue": "Library Hall",
+    "status": "open",
+    "description": "Photography Walk organised for StudentHub members."
+  },
+  {
+    "id": 10,
+    "title": "Alumni Meet",
+    "category": "Technical",
+    "date": "2026-12-21",
+    "venue": "Main Auditorium",
+    "status": "open",
+    "description": "Alumni Meet organised for StudentHub members."
+  },
+  {
+    "id": 11,
+    "title": "Cyber Security Talk",
+    "category": "Cultural",
+    "date": "2026-12-23",
+    "venue": "Seminar Hall A",
+    "status": "open",
+    "description": "Cyber Security Talk organised for StudentHub members."
+  },
+  {
+    "id": 12,
+    "title": "Startup Pitch Night",
+    "category": "Sports",
+    "date": "2026-12-25",
+    "venue": "Computer Lab 3",
+    "status": "closed",
+    "description": "Startup Pitch Night organised for StudentHub members."
+  },
+  {
+    "id": 13,
+    "title": "Python Marathon",
+    "category": "Workshop",
+    "date": "2026-12-27",
+    "venue": "Sports Ground",
+    "status": "open",
+    "description": "Python Marathon organised for StudentHub members."
+  },
+  {
+    "id": 14,
+    "title": "Debate Championship",
+    "category": "Seminar",
+    "date": "2026-12-02",
+    "venue": "Library Hall",
+    "status": "open",
+    "description": "Debate Championship organised for StudentHub members."
+  },
+  {
+    "id": 15,
+    "title": "Placement Orientation",
+    "category": "Technical",
+    "date": "2026-12-04",
+    "venue": "Main Auditorium",
+    "status": "open",
+    "description": "Placement Orientation organised for StudentHub members."
+  },
+  {
+    "id": 16,
+    "title": "Git & GitHub Workshop",
+    "category": "Cultural",
+    "date": "2026-12-06",
+    "venue": "Seminar Hall A",
+    "status": "closed",
+    "description": "Git & GitHub Workshop organised for StudentHub members."
+  },
+  {
+    "id": 17,
+    "title": "Yoga Morning",
+    "category": "Sports",
+    "date": "2026-12-08",
+    "venue": "Computer Lab 3",
+    "status": "open",
+    "description": "Yoga Morning organised for StudentHub members."
+  },
+  {
+    "id": 18,
+    "title": "Data Science Seminar",
+    "category": "Workshop",
+    "date": "2026-12-10",
+    "venue": "Sports Ground",
+    "status": "open",
+    "description": "Data Science Seminar organised for StudentHub members."
+  }
+]

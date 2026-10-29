@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="StudentHub - static HTML5 page: Login">
+<title>Login | StudentHub</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<script>try{var t=localStorage.getItem('sh_theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container nav-bar">
+    <a class="brand" href="index.html">Student<span>Hub</span></a>
+    <div class="nav-tools">
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle light/dark theme">🌙</button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">☰</button>
+    </div>
+    <nav aria-label="Main navigation" style="flex:1 1 auto"><ul class="nav-menu" id="navMenu" style="justify-content:flex-end"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="events.html">Events</a></li><li><a href="directory.html">Directory</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li><li><a href="feedback.html">Feedback</a></li><li><a href="dashboard.html">Dashboard</a></li><li><a href="profile.html">Profile</a></li><li><a href="admin.html">Admin</a></li><li><a href="login.html" aria-current="page">Login</a></li><li><a href="register.html">Register</a></li></ul></nav>
+  </div>
+</header>
+<div class="banner" id="banner" role="status"><div class="container"><span>🎉 Annual Tech Fest registrations are open — see the Events page!</span><button id="bannerClose" aria-label="Dismiss notification">&times;</button></div></div>
+<div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> › <span>Login</span></nav></div>
+<main id="main" class="container">
+<h1>Login</h1>
+<form class="card form-card demo-form" novalidate data-msg="Static demo: no server here. Use the PHP version (../login.php) for real authentication." data-redirect="dashboard.html">
+  <div class="form-grid">
+    <div><label for="email">Email</label><input type="email" id="email" name="email" autocomplete="username" required></div>
+    <div><label for="password">Password</label><input type="password" id="password" name="password" autocomplete="current-password" required></div>
+    <div class="check-row"><label><input type="checkbox" name="remember"> Remember me</label></div>
+    <button class="btn" type="submit">Log in</button>
+    <p class="hint">No account? <a href="register.html">Register</a></p>
+  </div>
+</form>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><strong>StudentHub</strong><p>Student &amp; event management portal — CHARUSAT, ITUE203 Web Development Frameworks.</p></div>
+    <div><strong>Links</strong><br><a href="about.html">About</a><br><a href="faq.html">FAQ</a><br><a href="contact.html">Contact</a></div>
+    <div><strong>Account</strong><br><a href="login.html">Login</a><br><a href="register.html">Register</a></div>
+  </div>
+  <div class="container"><small>&copy; 2026 StudentHub. All rights reserved.</small></div>
+</footer>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/static.js"></script>
+</body>
+</html>

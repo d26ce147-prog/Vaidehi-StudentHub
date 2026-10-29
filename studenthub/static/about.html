@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="StudentHub - static HTML5 page: About">
+<title>About | StudentHub</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<script>try{var t=localStorage.getItem('sh_theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container nav-bar">
+    <a class="brand" href="index.html">Student<span>Hub</span></a>
+    <div class="nav-tools">
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle light/dark theme">🌙</button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">☰</button>
+    </div>
+    <nav aria-label="Main navigation" style="flex:1 1 auto"><ul class="nav-menu" id="navMenu" style="justify-content:flex-end"><li><a href="index.html">Home</a></li><li><a href="about.html" aria-current="page">About</a></li><li><a href="events.html">Events</a></li><li><a href="directory.html">Directory</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li><li><a href="feedback.html">Feedback</a></li><li><a href="dashboard.html">Dashboard</a></li><li><a href="profile.html">Profile</a></li><li><a href="admin.html">Admin</a></li><li><a href="login.html">Login</a></li><li><a href="register.html">Register</a></li></ul></nav>
+  </div>
+</header>
+<div class="banner" id="banner" role="status"><div class="container"><span>🎉 Annual Tech Fest registrations are open — see the Events page!</span><button id="bannerClose" aria-label="Dismiss notification">&times;</button></div></div>
+<div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> › <span>About</span></nav></div>
+<main id="main" class="container">
+<h1>About StudentHub</h1>
+<p class="lead">A semester project for Web Development Frameworks (ITUE203) at CHARUSAT.</p>
+<div class="grid cols-2">
+  <section class="card"><h2>User roles</h2><ul><li><strong>Visitor</strong> – view public pages, register, contact.</li><li><strong>Student</strong> – dashboard, profile, event registration.</li><li><strong>Admin</strong> – manage students, events and the audit log.</li></ul></section>
+  <section class="card"><h2>Tech stack</h2><p>HTML5, CSS3 (Grid &amp; Flexbox), JavaScript ES6, PHP, MySQL, Fetch API, XAMPP.</p></section>
+</div>
+<section class="card" style="margin-top:1.2rem"><h2>Sitemap</h2><ul><li>Public: Home, About, Events, FAQ, Contact, Feedback, Login, Register</li><li>Student: Dashboard, Profile</li><li>Admin: Admin dashboard</li></ul></section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><strong>StudentHub</strong><p>Student &amp; event management portal — CHARUSAT, ITUE203 Web Development Frameworks.</p></div>
+    <div><strong>Links</strong><br><a href="about.html">About</a><br><a href="faq.html">FAQ</a><br><a href="contact.html">Contact</a></div>
+    <div><strong>Account</strong><br><a href="login.html">Login</a><br><a href="register.html">Register</a></div>
+  </div>
+  <div class="container"><small>&copy; 2026 StudentHub. All rights reserved.</small></div>
+</footer>
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>

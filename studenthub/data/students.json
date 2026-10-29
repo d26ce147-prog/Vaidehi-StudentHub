@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Patel",
+    "email": "aarav.patel0@student.local",
+    "mobile": "8260181590",
+    "course": "B.Tech CE",
+    "year": "1",
+    "gender": "Male"
+  },
+  {
+    "id": 2,
+    "name": "Vihaan Shah",
+    "email": "vihaan.shah1@student.local",
+    "mobile": "7016613186",
+    "course": "B.Tech IT",
+    "year": "2",
+    "gender": "Male"
+  },
+  {
+    "id": 3,
+    "name": "Diya Mehta",
+    "email": "diya.mehta2@student.local",
+    "mobile": "6913909960",
+    "course": "B.Tech CSE",
+    "year": "3",
+    "gender": "Female"
+  },
+  {
+    "id": 4,
+    "name": "Anaya Desai",
+    "email": "anaya.desai3@student.local",
+    "mobile": "7082462819",
+    "course": "B.Tech AIML",
+    "year": "4",
+    "gender": "Female"
+  },
+  {
+    "id": 5,
+    "name": "Riya Joshi",
+    "email": "riya.joshi4@student.local",
+    "mobile": "8821993518",
+    "course": "MCA",
+    "year": "1",
+    "gender": "Female"
+  },
+  {
+    "id": 6,
+    "name": "Kabir Parmar",
+    "email": "kabir.parmar5@student.local",
+    "mobile": "6909378657",
+    "course": "BCA",
+    "year": "2",
+    "gender": "Male"
+  },
+  {
+    "id": 7,
+    "name": "Ishaan Trivedi",
+    "email": "ishaan.trivedi6@student.local",
+    "mobile": "9543231948",
+    "course": "B.Tech CE",
+    "year": "3",
+    "gender": "Male"
+  },
+  {
+    "id": 8,
+    "name": "Meera Modi",
+    "email": "meera.modi7@student.local",
+    "mobile": "9574911862",
+    "course": "B.Tech IT",
+    "year": "4",
+    "gender": "Female"
+  },
+  {
+    "id": 9,
+    "name": "Krish Vyas",
+    "email": "krish.vyas8@student.local",
+    "mobile": "8276018955",
+    "course": "B.Tech CSE",
+    "year": "1",
+    "gender": "Male"
+  },
+  {
+    "id": 10,
+    "name": "Saanvi Bhatt",
+    "email": "saanvi.bhatt9@student.local",
+    "mobile": "8979711471",
+    "course": "B.Tech AIML",
+    "year": "2",
+    "gender": "Female"
+  },
+  {
+    "id": 11,
+    "name": "Tara Patel",
+    "email": "tara.patel10@student.local",
+    "mobile": "6497465075",
+    "course": "MCA",
+    "year": "3",
+    "gender": "Female"
+  },
+  {
+    "id": 12,
+    "name": "Dev Shah",
+    "email": "dev.shah11@student.local",
+    "mobile": "7917034236",
+    "course": "BCA",
+    "year": "4",
+    "gender": "Male"
+  },
+  {
+    "id": 13,
+    "name": "Nisha Mehta",
+    "email": "nisha.mehta12@student.local",
+    "mobile": "9712768426",
+    "course": "B.Tech CE",
+    "year": "1",
+    "gender": "Female"
+  },
+  {
+    "id": 14,
+    "name": "Rohan Desai",
+    "email": "rohan.desai13@student.local",
+    "mobile": "8656321223",
+    "course": "B.Tech IT",
+    "year": "2",
+    "gender": "Male"
+  },
+  {
+    "id": 15,
+    "name": "Pooja Joshi",
+    "email": "pooja.joshi14@student.local",
+    "mobile": "7079244026",
+    "course": "B.Tech CSE",
+    "year": "3",
+    "gender": "Female"
+  },
+  {
+    "id": 16,
+    "name": "Yash Parmar",
+    "email": "yash.parmar15@student.local",
+    "mobile": "8995289078",
+    "course": "B.Tech AIML",
+    "year": "4",
+    "gender": "Male"
+  },
+  {
+    "id": 17,
+    "name": "Kavya Trivedi",
+    "email": "kavya.trivedi16@student.local",
+    "mobile": "9666176031",
+    "course": "MCA",
+    "year": "1",
+    "gender": "Female"
+  },
+  {
+    "id": 18,
+    "name": "Harsh Modi",
+    "email": "harsh.modi17@student.local",
+    "mobile": "7721590109",
+    "course": "BCA",
+    "year": "2",
+    "gender": "Male"
+  },
+  {
+    "id": 19,
+    "name": "Isha Vyas",
+    "email": "isha.vyas18@student.local",
+    "mobile": "7815901396",
+    "course": "B.Tech CE",
+    "year": "3",
+    "gender": "Female"
+  },
+  {
+    "id": 20,
+    "name": "Jay Bhatt",
+    "email": "jay.bhatt19@student.local",
+    "mobile": "7459571177",
+    "course": "B.Tech IT",
+    "year": "4",
+    "gender": "Male"
+  },
+  {
+    "id": 21,
+    "name": "Mansi Patel",
+    "email": "mansi.patel20@student.local",
+    "mobile": "9741215472",
+    "course": "B.Tech CSE",
+    "year": "1",
+    "gender": "Female"
+  },
+  {
+    "id": 22,
+    "name": "Parth Shah",
+    "email": "parth.shah21@student.local",
+    "mobile": "6385280841",
+    "course": "B.Tech AIML",
+    "year": "2",
+    "gender": "Male"
+  },
+  {
+    "id": 23,
+    "name": "Sneha Mehta",
+    "email": "sneha.mehta22@student.local",
+    "mobile": "8852538885",
+    "course": "MCA",
+    "year": "3",
+    "gender": "Female"
+  },
+  {
+    "id": 24,
+    "name": "Tejas Desai",
+    "email": "tejas.desai23@student.local",
+    "mobile": "7933633875",
+    "course": "BCA",
+    "year": "4",
+    "gender": "Male"
+  }
+]

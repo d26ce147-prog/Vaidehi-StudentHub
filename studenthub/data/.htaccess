@@ -1,0 +1,4 @@
+# students.json, events.json, faqs.json are public demo data; submissions are private
+<FilesMatch "^(contacts\.csv|feedback\.json)$">
+  Require all denied
+</FilesMatch>

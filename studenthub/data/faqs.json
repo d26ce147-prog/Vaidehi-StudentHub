@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "How do I register on StudentHub?",
+    "answer": "Open the Register page, fill in the form and submit. You can log in immediately afterwards.",
+    "category": "Account"
+  },
+  {
+    "id": 2,
+    "question": "I forgot my password. What now?",
+    "answer": "Contact the administrator through the Contact page to reset your password.",
+    "category": "Account"
+  },
+  {
+    "id": 3,
+    "question": "How do I join an event?",
+    "answer": "Log in, open Events and press Register on any open event.",
+    "category": "Events"
+  },
+  {
+    "id": 4,
+    "question": "Can I cancel an event registration?",
+    "answer": "Yes, from your dashboard before the event closes.",
+    "category": "Events"
+  },
+  {
+    "id": 5,
+    "question": "Who can add events?",
+    "answer": "Only administrators can add, edit or delete events.",
+    "category": "Events"
+  },
+  {
+    "id": 6,
+    "question": "Is my password stored safely?",
+    "answer": "Passwords are hashed with PHP password_hash() and never stored in plain text.",
+    "category": "Security"
+  },
+  {
+    "id": 7,
+    "question": "What is the session timeout?",
+    "answer": "You are logged out automatically after 15 minutes of inactivity.",
+    "category": "Security"
+  },
+  {
+    "id": 8,
+    "question": "What does Remember Me do?",
+    "answer": "It keeps you signed in using a random token stored as a hash in the database.",
+    "category": "Security"
+  },
+  {
+    "id": 9,
+    "question": "Which courses are supported?",
+    "answer": "B.Tech CE, IT, CSE, AIML, MCA and BCA.",
+    "category": "General"
+  },
+  {
+    "id": 10,
+    "question": "How do I update my profile?",
+    "answer": "Open Profile from the menu and edit your details.",
+    "category": "Account"
+  },
+  {
+    "id": 11,
+    "question": "Can I use the site on mobile?",
+    "answer": "Yes, the layout is fully responsive.",
+    "category": "General"
+  },
+  {
+    "id": 12,
+    "question": "How do I switch to dark mode?",
+    "answer": "Use the moon/sun button in the header; your choice is remembered.",
+    "category": "General"
+  },
+  {
+    "id": 13,
+    "question": "What file types can posters be?",
+    "answer": "JPG, PNG or WEBP up to 2 MB.",
+    "category": "Events"
+  },
+  {
+    "id": 14,
+    "question": "How do I contact support?",
+    "answer": "Use the Contact page or the Feedback form.",
+    "category": "General"
+  },
+  {
+    "id": 15,
+    "question": "Who built StudentHub?",
+    "answer": "It is a CHARUSAT Web Development Frameworks (ITUE203) semester project.",
+    "category": "General"
+  }
+]

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="StudentHub - static HTML5 page: Register">
+<title>Register | StudentHub</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<script>try{var t=localStorage.getItem('sh_theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container nav-bar">
+    <a class="brand" href="index.html">Student<span>Hub</span></a>
+    <div class="nav-tools">
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle light/dark theme">🌙</button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">☰</button>
+    </div>
+    <nav aria-label="Main navigation" style="flex:1 1 auto"><ul class="nav-menu" id="navMenu" style="justify-content:flex-end"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="events.html">Events</a></li><li><a href="directory.html">Directory</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li><li><a href="feedback.html">Feedback</a></li><li><a href="dashboard.html">Dashboard</a></li><li><a href="profile.html">Profile</a></li><li><a href="admin.html">Admin</a></li><li><a href="login.html">Login</a></li><li><a href="register.html" aria-current="page">Register</a></li></ul></nav>
+  </div>
+</header>
+<div class="banner" id="banner" role="status"><div class="container"><span>🎉 Annual Tech Fest registrations are open — see the Events page!</span><button id="bannerClose" aria-label="Dismiss notification">&times;</button></div></div>
+<div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> › <span>Register</span></nav></div>
+<main id="main" class="container">
+<h1>Create your account</h1>
+<form id="registerForm" class="card form-card" novalidate data-msg="Registration valid (static demo). The PHP version saves it to MySQL." data-redirect="login.html">
+  <div class="form-grid">
+    <div><label for="name">Full name</label><input type="text" id="name" name="name" autocomplete="name" required><div class="error-msg" id="err-name" aria-live="polite"></div></div>
+    <div class="form-grid two">
+      <div><label for="email">Email</label><input type="email" id="email" name="email" autocomplete="email" required><div class="error-msg" id="err-email" aria-live="polite"></div></div>
+      <div><label for="mobile">Mobile</label><input type="tel" id="mobile" name="mobile" inputmode="numeric" maxlength="10" required><div class="error-msg" id="err-mobile" aria-live="polite"></div></div>
+    </div>
+    <div class="form-grid two">
+      <div><label for="password">Password</label><input type="password" id="password" name="password" autocomplete="new-password" required aria-describedby="strengthLabel"><div class="strength"><div id="strengthBar"></div></div><small class="hint" id="strengthLabel"></small><div class="error-msg" id="err-password" aria-live="polite"></div></div>
+      <div><label for="confirm_password">Confirm password</label><input type="password" id="confirm_password" name="confirm_password" autocomplete="new-password" required><div class="error-msg" id="err-confirm_password" aria-live="polite"></div></div>
+    </div>
+    <div class="form-grid two">
+      <div><label for="course">Course</label><select id="course" name="course" required><option value="">Select…</option><option>B.Tech CE</option><option>B.Tech IT</option><option>B.Tech CSE</option><option>B.Tech AIML</option><option>MCA</option><option>BCA</option></select><div class="error-msg" id="err-course" aria-live="polite"></div></div>
+      <div><label for="year">Year</label><select id="year" name="year" required><option value="">Select…</option><option value="1">Year 1</option><option value="2">Year 2</option><option value="3">Year 3</option><option value="4">Year 4</option></select><div class="error-msg" id="err-year" aria-live="polite"></div></div>
+    </div>
+    <fieldset><legend>Gender</legend><div class="radio-row" id="gender"><label><input type="radio" name="gender" value="Male"> Male</label><label><input type="radio" name="gender" value="Female"> Female</label><label><input type="radio" name="gender" value="Other"> Other</label></div><div class="error-msg" id="err-gender" aria-live="polite"></div></fieldset>
+    <div><label for="captcha_input">CAPTCHA</label><div class="captcha-row"><canvas id="captcha" width="140" height="50" aria-label="CAPTCHA image"></canvas><button type="button" class="btn secondary small" id="refreshCaptcha">↻ New</button><input type="text" id="captcha_input" autocomplete="off" style="max-width:140px" placeholder="Type code"></div><div class="error-msg" id="err-captcha_input" aria-live="polite"></div></div>
+    <div class="check-row"><label><input type="checkbox" id="terms" name="terms" value="1"> I accept the terms and conditions</label><div class="error-msg" id="err-terms" aria-live="polite"></div></div>
+    <button class="btn" type="submit">Register</button>
+    <p class="hint">Already have an account? <a href="login.html">Log in</a></p>
+  </div>
+</form>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><strong>StudentHub</strong><p>Student &amp; event management portal — CHARUSAT, ITUE203 Web Development Frameworks.</p></div>
+    <div><strong>Links</strong><br><a href="about.html">About</a><br><a href="faq.html">FAQ</a><br><a href="contact.html">Contact</a></div>
+    <div><strong>Account</strong><br><a href="login.html">Login</a><br><a href="register.html">Register</a></div>
+  </div>
+  <div class="container"><small>&copy; 2026 StudentHub. All rights reserved.</small></div>
+</footer>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/validation.js"></script><script src="../assets/js/static.js"></script>
+</body>
+</html>
